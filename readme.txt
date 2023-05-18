@@ -7,5 +7,5 @@ cd docs
 npm install
 npm run docs:dev
 
-部署示例:
-https://docs.bencao360.cn/
+部署成功网址:
+https://docs.bewater.xyz/
