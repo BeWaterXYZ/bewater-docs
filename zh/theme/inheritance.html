@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>主题的继承 | VuePress</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="/logo.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+    <meta name="description" content="Vue 驱动的静态网站生成器">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.93883742.css" as="style"><link rel="preload" href="/assets/js/app.ff23b18d.js" as="script"><link rel="preload" href="/assets/js/5.9c1513fd.js" as="script"><link rel="preload" href="/assets/js/105.424aaacc.js" as="script"><link rel="preload" href="/assets/js/8.7f57b14a.js" as="script"><link rel="prefetch" href="/assets/js/10.acf6dabb.js"><link rel="prefetch" href="/assets/js/100.8e617efc.js"><link rel="prefetch" href="/assets/js/101.e230a5be.js"><link rel="prefetch" href="/assets/js/102.892fe721.js"><link rel="prefetch" href="/assets/js/103.be930db8.js"><link rel="prefetch" href="/assets/js/104.4a81f743.js"><link rel="prefetch" href="/assets/js/106.1978416e.js"><link rel="prefetch" href="/assets/js/107.4b87b5e0.js"><link rel="prefetch" href="/assets/js/108.1de58bea.js"><link rel="prefetch" href="/assets/js/109.60e958f2.js"><link rel="prefetch" href="/assets/js/11.41efa7e5.js"><link rel="prefetch" href="/assets/js/12.97fc9c94.js"><link rel="prefetch" href="/assets/js/13.9072f1ab.js"><link rel="prefetch" href="/assets/js/14.d84b835f.js"><link rel="prefetch" href="/assets/js/15.f3dcd79e.js"><link rel="prefetch" href="/assets/js/16.b1ee0424.js"><link rel="prefetch" href="/assets/js/17.b5629770.js"><link rel="prefetch" href="/assets/js/18.53f36a61.js"><link rel="prefetch" href="/assets/js/19.8ff6299f.js"><link rel="prefetch" href="/assets/js/20.4306003a.js"><link rel="prefetch" href="/assets/js/21.b1b24063.js"><link rel="prefetch" href="/assets/js/22.2c31c649.js"><link rel="prefetch" href="/assets/js/23.4acd384c.js"><link rel="prefetch" href="/assets/js/24.d58de7f6.js"><link rel="prefetch" href="/assets/js/25.e5fc64e6.js"><link rel="prefetch" href="/assets/js/26.f7d96fc2.js"><link rel="prefetch" href="/assets/js/27.c1214559.js"><link rel="prefetch" href="/assets/js/28.46ea13bc.js"><link rel="prefetch" href="/assets/js/29.74fb8e40.js"><link rel="prefetch" href="/assets/js/30.a7fac625.js"><link rel="prefetch" href="/assets/js/31.40908987.js"><link rel="prefetch" href="/assets/js/32.729eae48.js"><link rel="prefetch" href="/assets/js/33.3aae2eb9.js"><link rel="prefetch" href="/assets/js/34.15ce5d1d.js"><link rel="prefetch" href="/assets/js/35.94f907a2.js"><link rel="prefetch" href="/assets/js/36.802fc9a1.js"><link rel="prefetch" href="/assets/js/37.d2a35352.js"><link rel="prefetch" href="/assets/js/38.748adb9f.js"><link rel="prefetch" href="/assets/js/39.05bcaba4.js"><link rel="prefetch" href="/assets/js/40.b9bfdc39.js"><link rel="prefetch" href="/assets/js/41.9b741abd.js"><link rel="prefetch" href="/assets/js/42.9c6b5616.js"><link rel="prefetch" href="/assets/js/43.cfbc9876.js"><link rel="prefetch" href="/assets/js/44.ae2778f6.js"><link rel="prefetch" href="/assets/js/45.b52148df.js"><link rel="prefetch" href="/assets/js/46.12a45eea.js"><link rel="prefetch" href="/assets/js/47.5c50a129.js"><link rel="prefetch" href="/assets/js/48.7151b8a6.js"><link rel="prefetch" href="/assets/js/49.0405dc1f.js"><link rel="prefetch" href="/assets/js/50.11261fe7.js"><link rel="prefetch" href="/assets/js/51.5caeff4e.js"><link rel="prefetch" href="/assets/js/52.048a9476.js"><link rel="prefetch" href="/assets/js/53.f94203b3.js"><link rel="prefetch" href="/assets/js/54.3d9d272b.js"><link rel="prefetch" href="/assets/js/55.b376a384.js"><link rel="prefetch" href="/assets/js/56.d3519764.js"><link rel="prefetch" href="/assets/js/57.2319ee15.js"><link rel="prefetch" href="/assets/js/58.7eb08ec1.js"><link rel="prefetch" href="/assets/js/59.ece84265.js"><link rel="prefetch" href="/assets/js/6.33e46146.js"><link rel="prefetch" href="/assets/js/60.5d524e2e.js"><link rel="prefetch" href="/assets/js/61.6b5f70c9.js"><link rel="prefetch" href="/assets/js/62.e0a5e7a6.js"><link rel="prefetch" href="/assets/js/63.11b72ffa.js"><link rel="prefetch" href="/assets/js/64.6dfd4a8b.js"><link rel="prefetch" href="/assets/js/65.7eeea0bb.js"><link rel="prefetch" href="/assets/js/66.64fb634e.js"><link rel="prefetch" href="/assets/js/67.a0df6f5e.js"><link rel="prefetch" href="/assets/js/68.9f61f990.js"><link rel="prefetch" href="/assets/js/69.a471d235.js"><link rel="prefetch" href="/assets/js/7.a181359b.js"><link rel="prefetch" href="/assets/js/70.2f6b4d93.js"><link rel="prefetch" href="/assets/js/71.d1e349e7.js"><link rel="prefetch" href="/assets/js/72.20c3c993.js"><link rel="prefetch" href="/assets/js/73.965b4ddb.js"><link rel="prefetch" href="/assets/js/74.eb1ff6a4.js"><link rel="prefetch" href="/assets/js/75.fd418983.js"><link rel="prefetch" href="/assets/js/76.df820c42.js"><link rel="prefetch" href="/assets/js/77.7753391b.js"><link rel="prefetch" href="/assets/js/78.840c38a0.js"><link rel="prefetch" href="/assets/js/79.17909113.js"><link rel="prefetch" href="/assets/js/80.fe3679ff.js"><link rel="prefetch" href="/assets/js/81.28705d94.js"><link rel="prefetch" href="/assets/js/82.c33b6a1e.js"><link rel="prefetch" href="/assets/js/83.a7667c43.js"><link rel="prefetch" href="/assets/js/84.5b081427.js"><link rel="prefetch" href="/assets/js/85.d1d57ea5.js"><link rel="prefetch" href="/assets/js/86.09c15a6a.js"><link rel="prefetch" href="/assets/js/87.efbaa558.js"><link rel="prefetch" href="/assets/js/88.3b26889a.js"><link rel="prefetch" href="/assets/js/89.8e171527.js"><link rel="prefetch" href="/assets/js/9.7f061a98.js"><link rel="prefetch" href="/assets/js/90.29005871.js"><link rel="prefetch" href="/assets/js/91.25c71437.js"><link rel="prefetch" href="/assets/js/92.e2cebe1c.js"><link rel="prefetch" href="/assets/js/93.6c81f82f.js"><link rel="prefetch" href="/assets/js/94.2e57395d.js"><link rel="prefetch" href="/assets/js/95.8db429e4.js"><link rel="prefetch" href="/assets/js/96.b1470b0e.js"><link rel="prefetch" href="/assets/js/97.89ffbbba.js"><link rel="prefetch" href="/assets/js/98.45570a16.js"><link rel="prefetch" href="/assets/js/99.41c5e840.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.41fff005.js"><link rel="prefetch" href="/assets/js/vendors~flowchart.338aebc6.js"><link rel="prefetch" href="/assets/js/vendors~notification.96ceaf0b.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.93883742.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/zh/" class="home-link router-link-active"><!----> <span class="site-name">VuePress</span></a> <div class="links"><form id="search-form" role="search" class="algolia-search-wrapper search-box"><input id="algolia-search-input" class="search-query"></form> <nav class="nav-links can-hide"><div class="nav-item"><a href="/zh/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="/zh/config/" class="nav-link">
+  配置
+</a></div><div class="nav-item"><a href="/zh/plugin/" class="nav-link">
+  插件
+</a></div><div class="nav-item"><a href="/zh/theme/" class="nav-link router-link-active">
+  主题
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="了解更多" class="dropdown-title"><span class="title">了解更多</span> <span class="arrow down"></span></button> <button type="button" aria-label="了解更多" class="mobile-dropdown-title"><span class="title">了解更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          API
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zh/api/cli.html" class="nav-link">
+  CLI
+</a></li><li class="dropdown-subitem"><a href="/zh/api/node.html" class="nav-link">
+  Node
+</a></li></ul></li><li class="dropdown-item"><h4>
+          开发指南
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zh/miscellaneous/local-development.html" class="nav-link">
+  本地开发
+</a></li><li class="dropdown-subitem"><a href="/zh/miscellaneous/design-concepts.html" class="nav-link">
+  设计理念
+</a></li><li class="dropdown-subitem"><a href="/zh/faq/" class="nav-link">
+  FAQ
+</a></li><li class="dropdown-subitem"><a href="/zh/miscellaneous/glossary.html" class="nav-link">
+  术语
+</a></li></ul></li><li class="dropdown-item"><h4>
+          其他
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zh/miscellaneous/migration-guide.html" class="nav-link">
+  从 0.x 迁移
+</a></li><li class="dropdown-subitem"><a href="https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Changelog
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="v1.x" class="dropdown-title"><span class="title">v1.x</span> <span class="arrow down"></span></button> <button type="button" aria-label="v1.x" class="mobile-dropdown-title"><span class="title">v1.x</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://v2.vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  v2.x
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://v0.vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  v0.x
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="选择语言" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="选择语言" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/theme/inheritance.html" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/zh/theme/inheritance.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  简体中文
+</a></li></ul></div></div> <a href="https://github.com/BeWaterXYZ/bewater-docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/zh/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="/zh/config/" class="nav-link">
+  配置
+</a></div><div class="nav-item"><a href="/zh/plugin/" class="nav-link">
+  插件
+</a></div><div class="nav-item"><a href="/zh/theme/" class="nav-link router-link-active">
+  主题
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="了解更多" class="dropdown-title"><span class="title">了解更多</span> <span class="arrow down"></span></button> <button type="button" aria-label="了解更多" class="mobile-dropdown-title"><span class="title">了解更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          API
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zh/api/cli.html" class="nav-link">
+  CLI
+</a></li><li class="dropdown-subitem"><a href="/zh/api/node.html" class="nav-link">
+  Node
+</a></li></ul></li><li class="dropdown-item"><h4>
+          开发指南
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zh/miscellaneous/local-development.html" class="nav-link">
+  本地开发
+</a></li><li class="dropdown-subitem"><a href="/zh/miscellaneous/design-concepts.html" class="nav-link">
+  设计理念
+</a></li><li class="dropdown-subitem"><a href="/zh/faq/" class="nav-link">
+  FAQ
+</a></li><li class="dropdown-subitem"><a href="/zh/miscellaneous/glossary.html" class="nav-link">
+  术语
+</a></li></ul></li><li class="dropdown-item"><h4>
+          其他
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zh/miscellaneous/migration-guide.html" class="nav-link">
+  从 0.x 迁移
+</a></li><li class="dropdown-subitem"><a href="https://github.com/vuejs/vuepress/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Changelog
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="v1.x" class="dropdown-title"><span class="title">v1.x</span> <span class="arrow down"></span></button> <button type="button" aria-label="v1.x" class="mobile-dropdown-title"><span class="title">v1.x</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://v2.vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  v2.x
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://v0.vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  v0.x
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="选择语言" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="选择语言" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/theme/inheritance.html" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/zh/theme/inheritance.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  简体中文
+</a></li></ul></div></div> <a href="https://github.com/BeWaterXYZ/bewater-docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>主题</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/zh/theme/" aria-current="page" class="sidebar-link">介绍</a></li><li><a href="/zh/theme/using-a-theme.html" class="sidebar-link">使用主题</a></li><li><a href="/zh/theme/writing-a-theme.html" class="sidebar-link">开发主题</a></li><li><a href="/zh/theme/option-api.html" class="sidebar-link">主题的配置</a></li><li><a href="/zh/theme/default-theme-config.html" class="sidebar-link">默认主题配置</a></li><li><a href="/zh/theme/blog-theme.html" class="sidebar-link">博客主题</a></li><li><a href="/zh/theme/inheritance.html" aria-current="page" class="active sidebar-link">主题的继承</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/zh/theme/inheritance.html#动机" class="sidebar-link">动机</a></li><li class="sidebar-sub-header"><a href="/zh/theme/inheritance.html#概念" class="sidebar-link">概念</a></li><li class="sidebar-sub-header"><a href="/zh/theme/inheritance.html#使用" class="sidebar-link">使用</a></li><li class="sidebar-sub-header"><a href="/zh/theme/inheritance.html#继承策略" class="sidebar-link">继承策略</a></li><li class="sidebar-sub-header"><a href="/zh/theme/inheritance.html#插件的覆盖" class="sidebar-link">插件的覆盖</a></li><li class="sidebar-sub-header"><a href="/zh/theme/inheritance.html#组件的覆盖" class="sidebar-link">组件的覆盖</a></li><li class="sidebar-sub-header"><a href="/zh/theme/inheritance.html#访问父主题" class="sidebar-link">访问父主题</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="主题的继承"><a href="#主题的继承" class="header-anchor">#</a> 主题的继承</h1> <h2 id="动机"><a href="#动机" class="header-anchor">#</a> 动机</h2> <p>我们有两个主要的理由来支持这个特性：</p> <ol><li><p>VuePress 为开发者提供了一个<a href="/zh/theme/default-theme-config.html">默认主题</a>，它能在大多数场景下满足了文档编写者的需求。即便如此，仍然还是会有不少用户选择将其 eject 出来进行修改，即使他们可能只是想要修改其中的某个组件。</p></li> <li><p>在 <a href="https://vuepress.vuejs.org/guide/custom-themes.html#site-and-page-metadata" target="_blank" rel="noopener noreferrer">0.x<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 中，主题的入口只需要一个 <code>Layout.vue</code>，所以我们可以通过包装另一个主题的 <code>Layout.vue</code> 来实现简单的拓展。</p> <p>到了 1.x 中，一个主题的元素开始变得复杂，我们开始有了<a href="/zh/theme/option-api.html">主题级别的配置</a>，它支持为主题添加插件、自定义 GlobalLayout 等。除此之外，我们还有一些引入了主题开发的 <a href="/zh/theme/writing-a-theme.html#目录结构">目录结构的约定</a>，如 <code>styles/index.styl</code>，在这样的背景下，我们无法使用 0.x 的方式来实现继承了。</p></li></ol> <p>因此，我们需要提供一种合理、可靠的主题继承方案。</p> <h2 id="概念"><a href="#概念" class="header-anchor">#</a> 概念</h2> <p>为了介绍本节，我们先几个基本概念：</p> <ul><li><strong>原子主题</strong>：即父主题，类似默认主题这种完全从头实现的主题。</li> <li><strong>派生主题</strong>：即子主题，基于父主题创建的主题；</li></ul> <div class="custom-block tip"><p class="custom-block-title">提示</p> <p>主题继承暂时不支持高阶继承，也就是说，一个派生主题无法被继承。</p></div> <h2 id="使用"><a href="#使用" class="header-anchor">#</a> 使用</h2> <p>假设你想创建一个继承自 VuePress 默认主题的派生主题，你只需要在你的主题配置中配置 <a href="/zh/theme/option-api.html#extend">extend</a> 选项：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// .vuepress/theme/index.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">extend</span><span class="token operator">:</span> <span class="token string">'@vuepress/theme-default'</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="继承策略"><a href="#继承策略" class="header-anchor">#</a> 继承策略</h2> <p>父主题的所有能力都会&quot;传递&quot;给子主题，对于文件级别的约定，子主题可以通过在同样的位置创建同名文件来覆盖它；对于某些主题配置选项，如 <a href="/zh/theme/option-api.html#globallayout">globalLayout</a>，子主题也可以通过同名配置来覆盖它。</p> <p><a href="/zh/theme/writing-a-theme.html#目录结构">文件级别的约定</a>如下：</p> <ul><li><strong>全局组件</strong>，即放置在 <code>theme/global-components</code> 中的 Vue 组件。</li> <li><strong>组件</strong>，即放置在 <code>theme/components</code> 中的 Vue 组件。</li> <li><strong>全局的样式和调色板</strong>，即放置在 <code>theme/styles</code> 中的 <code>index.styl</code> 和 <code>palette.styl</code>。</li> <li><strong>HTML 模板</strong>，即放置在 <code>theme/templates</code> 中的 <code>dev.html</code> 和 <code>ssr.html</code>。</li> <li><strong>主题水平的客户端增强文件</strong>，即 <code>theme/enhanceApp.js</code></li></ul> <p>对于主题配置，能被子主题覆盖的配置选项如下：</p> <ul><li><a href="/zh/theme/option-api.html#devtemplate">devTemplate</a></li> <li><a href="/zh/theme/option-api.html#ssrtemplate">ssrTemplate</a></li> <li><a href="/zh/theme/option-api.html#globallayout">globalLayout</a></li></ul> <p>无法被子主题覆盖的主题配置选项如下：</p> <ul><li><a href="/zh/theme/option-api.html#extend">extend</a></li></ul> <p>需要特殊处理的主题选项：</p> <ul><li><a href="/zh/theme/option-api.html#plugins">plugins</a>：参见 <a href="#%E6%8F%92%E4%BB%B6%E7%9A%84%E8%A6%86%E7%9B%96">插件的覆盖</a>。</li></ul> <h2 id="插件的覆盖"><a href="#插件的覆盖" class="header-anchor">#</a> 插件的覆盖</h2> <p>对于父主题中的 <a href="/zh/theme/option-api.html#plugins">plugins</a>, 子主题不会直接覆盖它，但是插件的选项可以通过创建同名的插件配置来覆盖。</p> <p>举例来说，如果父主题具有如下配置：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// parentThemePath/index.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">[</span><span class="token string">'@vuepress/search'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">searchMaxSuggestions</span><span class="token operator">:</span> <span class="token number">5</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>那么子主题可以通过如下方式来修改该插件的默认值：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// .vuepress/theme/index.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">[</span><span class="token string">'@vuepress/search'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">searchMaxSuggestions</span><span class="token operator">:</span> <span class="token number">10</span>
+    <span class="token punctuation">}</span><span class="token punctuation">]</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>也可以选择禁用它：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// .vuepress/theme/index.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">[</span><span class="token string">'@vuepress/search'</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">]</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="custom-block warning"><p class="custom-block-title">注意</p> <p>一般情况下，你都不需要这样做，除非你明确知道禁用父主题中的插件不会带来问题。</p></div> <h2 id="组件的覆盖"><a href="#组件的覆盖" class="header-anchor">#</a> 组件的覆盖</h2> <p>你可能想要在子主题中覆盖父主题中的同名组件，默认情况下，当父主题中的组件都使用相对路径引用其他组件时，你将不可能做到这一点，因为你无法在运行时修改父主题的代码。</p> <p>VuePress 则通过一种巧妙的方式实现了这种需求，但这对父主题有一定的要求——<strong>所有的组件都必须使用 <code>@theme</code> 别名来引用其他组件</strong>。</p> <p>举例来说，如果你正在开发的一个原子主题的结构如下：</p> <pre class="vue-container"><code><p>theme
+├── components
+│   ├── <code>Home.vue</code>
+│   ├── <code>Navbar.vue</code>
+│   └── <code>Sidebar.vue</code>
+├── layouts
+│   ├── <code>404.vue</code>
+│   └── <code>Layout.vue</code>
+├── package.json
+└── index.js</p>
+</code></pre><p>那么，在该主题中的任意 Vue 组件中，<strong>你都应该通过 <code>@theme</code> 来访问主题根目录</strong>：</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> Navbar <span class="token keyword">from</span> <span class="token string">'@theme/components/Navbar.vue'</span>
+<span class="token comment">// ...</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>在这样的前提下，当你在子主题中同样的位置创建一个 <code>Navbar</code> 组件时：</p> <pre class="vue-container"><code><p>theme
+└── components
+   └── <code>Navbar.vue</code></p>
+</code></pre><p><code>@theme/components/Navbar.vue</code> 会自动地映射到子主题中的 Navbar 组件，当你移除这个组件时，<code>@theme/components/Navbar.vue</code> 又会自动恢复为父主题中的 Navbar 组件。</p> <p>如此一来，就可以实现轻松地“篡改”一个原子主题的某个部分。</p> <div class="custom-block tip"><p class="custom-block-title">提示</p> <ol><li>组件的覆盖，最好直接基于父主题中对应组件的代码来修改；</li> <li>目前，在本地开发子主题，每次创建或移除组件时，你需要手动重启 Dev Server。</li></ol></div> <h2 id="访问父主题"><a href="#访问父主题" class="header-anchor">#</a> 访问父主题</h2> <p>你可以使用 <code>@parent-theme</code> 来访问父主题的根路径，下述示例展示了在子主题中创建一个同名的布局组件，并简单使用父主题中的 slot，<a href="https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/theme-vue" target="_blank" rel="noopener noreferrer">@vuepress/theme-vue<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 便是通过这种方式创造的。</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token comment">&lt;!-- .vuepress/theme/components/Foo.vue --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ParentLayout</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Foo</span> <span class="token attr-name">#foo</span><span class="token punctuation">/&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ParentLayout</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> ParentLayout <span class="token keyword">from</span> <span class="token string">'@parent-theme/layouts/Layout.vue'</span>
+<span class="token keyword">import</span> Foo <span class="token keyword">from</span> <span class="token string">'@theme/components/Foo.vue'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">components</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    ParentLayout<span class="token punctuation">,</span>
+    Foo
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/BeWaterXYZ/bewater-docs/edit/master/bewater-docs/docs/docs/zh/theme/inheritance.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2023/5/18 06:28:06</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/zh/theme/blog-theme.html" class="prev">
+        博客主题
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.ff23b18d.js" defer></script><script src="/assets/js/5.9c1513fd.js" defer></script><script src="/assets/js/105.424aaacc.js" defer></script><script src="/assets/js/8.7f57b14a.js" defer></script>
+  </body>
+</html>
