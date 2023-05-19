@@ -97,5 +97,5 @@ export default defineConfig(ctx => ({
     ['vuepress-plugin-flowchart']
   ],
   extraWatchFiles: ['.vuepress/config/**'],
-  evergreen: !ctx.isProd
+  evergreen: false
 }))
