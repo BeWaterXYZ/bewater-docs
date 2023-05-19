@@ -27,15 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "b714061571bfd2ef728a6444beca6bc9"
-  },
-  {
-    "url": "android-chrome-192x192.png",
-    "revision": "1b3774ae1ab398168e53acf04918ba2b"
-  },
-  {
-    "url": "android-chrome-372x372.png",
-    "revision": "21562bdc93695d9faa7afe632f76887e"
+    "revision": "f2a0aae0fb656ce41c2b3f2e5903bf05"
   },
   {
     "url": "architecture.png",
@@ -82,12 +74,12 @@ self.__precacheManifest = [
     "revision": "ed83c8a9ae3e4de721dd93daed6f0374"
   },
   {
-    "url": "assets/js/16.0c9f97d3.js",
-    "revision": "a090145fe3a75d00897997da58ea5702"
+    "url": "assets/js/16.c37cddb6.js",
+    "revision": "5a4d64b5a8bf5c60b11070311454ea5f"
   },
   {
-    "url": "assets/js/17.7d031b49.js",
-    "revision": "4f6ca99138dac0c257deb15b8d8a76fd"
+    "url": "assets/js/17.2cc09bc8.js",
+    "revision": "e78677093b7e33ffa8e5132b952f1285"
   },
   {
     "url": "assets/js/18.0844546e.js",
@@ -134,8 +126,8 @@ self.__precacheManifest = [
     "revision": "ab51457e58a5ab9a01ab160d3b7a783f"
   },
   {
-    "url": "assets/js/app.99824823.js",
-    "revision": "c34744ea5b21672c927429afc328b164"
+    "url": "assets/js/app.c0bc13a1.js",
+    "revision": "ca4c2caaa1c279ea4b46da99870d12ce"
   },
   {
     "url": "assets/js/vendors~flowchart.b8d646e1.js",
@@ -151,11 +143,19 @@ self.__precacheManifest = [
   },
   {
     "url": "guide/getting-started.html",
-    "revision": "31130b58a578e25a5d5ead4ffe92ced2"
+    "revision": "d54ee25ce558b87dde8c8a1e44ab4f78"
   },
   {
     "url": "guide/index.html",
-    "revision": "4e8ee4ceb3c7fd02e30c4ba63d1d61c2"
+    "revision": "0abb98aed5c0f06302eebdfd4f76e30f"
+  },
+  {
+    "url": "icons/android-chrome-192x192.png",
+    "revision": "1b3774ae1ab398168e53acf04918ba2b"
+  },
+  {
+    "url": "icons/android-chrome-372x372.png",
+    "revision": "21562bdc93695d9faa7afe632f76887e"
   },
   {
     "url": "icons/apple-touch-icon-152x152.png",
@@ -163,7 +163,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "b7a5b4b6822fd38db3eb0a12c68afc88"
+    "revision": "b4937f4492e846ecb5f1d2b7b19a8b8d"
   },
   {
     "url": "line-numbers-desktop.png",
@@ -183,15 +183,15 @@ self.__precacheManifest = [
   },
   {
     "url": "zh/guide/getting-started.html",
-    "revision": "38f1fe1631ffa04b7d72c4c497c57bd1"
+    "revision": "392dcb7f05de4da3e59b707ff78df1ca"
   },
   {
     "url": "zh/guide/index.html",
-    "revision": "c16cc04552ebd7b93139abc67153e473"
+    "revision": "04f76d8ea22af6463e348e1a9ea8cecc"
   },
   {
     "url": "zh/index.html",
-    "revision": "494fb0a21a4bb497324496456cf64913"
+    "revision": "d1c7e11c8a1a0133d69a4b40f34d46a5"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
