@@ -22,57 +22,34 @@ export default defineConfig(ctx => ({
       'link',
       { rel: 'apple-touch-icon', href: `/icons/apple-touch-icon-152x152.png` }
     ],
-    [
-      'link',
-      {
-        rel: 'mask-icon',
-        href: '/icons/safari-pinned-tab.svg',
-        color: '#3eaf7c'
-      }
-    ],
-    [
-      'meta',
-      {
-        name: 'msapplication-TileImage',
-        content: '/icons/msapplication-icon-144x144.png'
-      }
-    ],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'VuePress',
-      description: 'Vue-powered Static Site Generator'
+      title: `BeWater Docs`,
+      description: 'A SOP framework for our business clients to host professional online and offline challenges to build their ecosystem.'
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: 'VuePress',
-      description: 'Vue 驱动的静态网站生成器'
+      title: 'BeWater 文档',
+      description: 'Web3创新平台，Web3世界里创新者的超级女声。'
     }
   },
   themeConfig: {
-    repo: 'BeWaterXYZ/bewater-docs',
-    editLinks: true,
+    logo: '/logo.png',
+    // repo: 'BeWaterXYZ/bewater-docs',
     docsDir: 'bewater-docs/docs/docs',
-    // #697 Provided by the official algolia team.
-    algolia: ctx.isProd
-      ? {
-        apiKey: '3a539aab83105f01761a137c61004d85',
-        indexName: 'vuepress',
-        algoliaOptions: {
-          facetFilters: ['tags:v1']
-        }
-      }
-      : null,
+    editLinks: false,
+    lastUpdated: false,
+    algolia: null,
     smoothScroll: true,
+    sidebarDepth: 2,
     locales: {
       '/': {
         label: 'English',
         selectText: 'Languages',
         ariaLabel: 'Select language',
-        editLinkText: 'Edit this page on GitHub',
-        lastUpdated: 'Last Updated',
         nav: NavItems4EN,
         sidebar: Sidebar4EN
       },
@@ -80,8 +57,6 @@ export default defineConfig(ctx => ({
         label: '简体中文',
         selectText: '选择语言',
         ariaLabel: '选择语言',
-        editLinkText: '在 GitHub 上编辑此页',
-        lastUpdated: '上次更新',
         nav: NavItems4ZH,
         sidebar: Sidebar4ZH
       }

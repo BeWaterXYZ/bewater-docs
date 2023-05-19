@@ -2,10 +2,12 @@ import fs from 'fs'
 import path from 'path'
 import { SidebarConfigArray } from 'vuepress/config'
 
-const officialPlugins = fs
-  .readdirSync(path.resolve(__dirname, '../../../plugin/official'))
-  .map(filename => 'official/' + filename.slice(0, -3))
-  .sort()
+var officialPlugins = []
+
+// officialPlugins = fs
+//   .readdirSync(path.resolve(__dirname, '../../../plugin/official'))
+//   .map(filename => 'official/' + filename.slice(0, -3))
+//   .sort()
 
 export function getPluginSidebar (
   pluginTitle: string,
@@ -69,26 +71,26 @@ export function getGuideSidebar (groupA, groupB): SidebarConfigArray {
       children: [
         '',
         'getting-started',
-        'directory-structure',
-        'basic-config',
-        'typescript-as-config',
-        'assets',
-        'markdown',
-        'using-vue',
-        'i18n',
-        'deploy'
+        // 'directory-structure',
+        // 'basic-config',
+        // 'typescript-as-config',
+        // 'assets',
+        // 'markdown',
+        // 'using-vue',
+        // 'i18n',
+        // 'deploy'
       ]
     },
-    {
-      title: groupB,
-      collapsable: false,
-      children: [
-        'frontmatter',
-        'permalinks',
-        'markdown-slot',
-        'global-computed'
-      ]
-    }
+    // {
+    //   title: groupB,
+    //   collapsable: false,
+    //   children: [
+    //     'frontmatter',
+    //     'permalinks',
+    //     'markdown-slot',
+    //     'global-computed'
+    //   ]
+    // }
   ]
 
   return sidebar
