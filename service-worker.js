@@ -27,27 +27,19 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "871bd0838d123b802771bbb3ba355081"
+    "revision": "b714061571bfd2ef728a6444beca6bc9"
+  },
+  {
+    "url": "android-chrome-192x192.png",
+    "revision": "1b3774ae1ab398168e53acf04918ba2b"
+  },
+  {
+    "url": "android-chrome-372x372.png",
+    "revision": "21562bdc93695d9faa7afe632f76887e"
   },
   {
     "url": "architecture.png",
     "revision": "9a93cf6cea38878e19c5816d1af28b17"
-  },
-  {
-    "url": "assets/1.9-lang.png",
-    "revision": "9a95306985d4954fe54bc8de5512d3ba"
-  },
-  {
-    "url": "assets/1.9-official-plugin-options.png",
-    "revision": "55243b507656a5c36b45b7d4b27c1cab"
-  },
-  {
-    "url": "assets/1.9-official-plugin-tuple-usage.png",
-    "revision": "252870643841d8bac56aac10d1a9d91f"
-  },
-  {
-    "url": "assets/1.9-overview.png",
-    "revision": "f3534cdf12b0474265fd296bdc82c225"
   },
   {
     "url": "assets/20230516170134.png",
@@ -90,12 +82,12 @@ self.__precacheManifest = [
     "revision": "ed83c8a9ae3e4de721dd93daed6f0374"
   },
   {
-    "url": "assets/js/16.c37cddb6.js",
-    "revision": "5a4d64b5a8bf5c60b11070311454ea5f"
+    "url": "assets/js/16.0c9f97d3.js",
+    "revision": "a090145fe3a75d00897997da58ea5702"
   },
   {
-    "url": "assets/js/17.2cc09bc8.js",
-    "revision": "e78677093b7e33ffa8e5132b952f1285"
+    "url": "assets/js/17.7d031b49.js",
+    "revision": "4f6ca99138dac0c257deb15b8d8a76fd"
   },
   {
     "url": "assets/js/18.0844546e.js",
@@ -142,8 +134,8 @@ self.__precacheManifest = [
     "revision": "ab51457e58a5ab9a01ab160d3b7a783f"
   },
   {
-    "url": "assets/js/app.0b68820b.js",
-    "revision": "a9e3061c60090c63e9bbb5d9af4eef45"
+    "url": "assets/js/app.99824823.js",
+    "revision": "c34744ea5b21672c927429afc328b164"
   },
   {
     "url": "assets/js/vendors~flowchart.b8d646e1.js",
@@ -159,15 +151,11 @@ self.__precacheManifest = [
   },
   {
     "url": "guide/getting-started.html",
-    "revision": "c81bc64281a1d35dccd2329276b5d0f0"
+    "revision": "31130b58a578e25a5d5ead4ffe92ced2"
   },
   {
     "url": "guide/index.html",
-    "revision": "f946794b137043f87d46add4c62902f5"
-  },
-  {
-    "url": "hero.png",
-    "revision": "d1fed5cb9d0a4c4269c3bcc4d74d9e64"
+    "revision": "4e8ee4ceb3c7fd02e30c4ba63d1d61c2"
   },
   {
     "url": "icons/apple-touch-icon-152x152.png",
@@ -175,7 +163,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "08f33e57ab84910140c076ae7503ee95"
+    "revision": "b7a5b4b6822fd38db3eb0a12c68afc88"
   },
   {
     "url": "line-numbers-desktop.png",
@@ -195,15 +183,15 @@ self.__precacheManifest = [
   },
   {
     "url": "zh/guide/getting-started.html",
-    "revision": "7e53d60efeaa15681eded2cd931f9864"
+    "revision": "38f1fe1631ffa04b7d72c4c497c57bd1"
   },
   {
     "url": "zh/guide/index.html",
-    "revision": "3b2d0cc5fd7f730792a02f9384df28fe"
+    "revision": "c16cc04552ebd7b93139abc67153e473"
   },
   {
     "url": "zh/index.html",
-    "revision": "7e1e772c0ccaedd459f33207b4d5d010"
+    "revision": "494fb0a21a4bb497324496456cf64913"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

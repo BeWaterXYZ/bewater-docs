@@ -1,6 +1,6 @@
 {
-  "name": "VuePress",
-  "short_name": "VuePress",
+  "name": "BeWater",
+  "short_name": "BeWater",
   "icons": [
     {
       "src": "/icons/android-chrome-192x192.png",
@@ -8,13 +8,13 @@
       "type": "image/png"
     },
     {
-      "src": "/icons/android-chrome-512x512.png",
-      "sizes": "512x512",
+      "src": "/icons/android-chrome-372x372.png",
+      "sizes": "372x372",
       "type": "image/png"
     }
   ],
-  "start_url": "/guide/",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#fff",
-  "theme_color": "#3eaf7c"
+  "theme_color": "#fb6052"
 }
