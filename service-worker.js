@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "32d6d0d9e7989b50304911f8afa5900b"
+    "revision": "be2dffbee867aab3226264acae073c86"
   },
   {
     "url": "architecture.png",
@@ -126,8 +126,8 @@ self.__precacheManifest = [
     "revision": "ab51457e58a5ab9a01ab160d3b7a783f"
   },
   {
-    "url": "assets/js/app.cb90fb7e.js",
-    "revision": "d9d3afa70c805f6ead97eaaafa103a42"
+    "url": "assets/js/app.af04f438.js",
+    "revision": "8c8925e8d2588575b112e7b442769855"
   },
   {
     "url": "assets/js/vendors~flowchart.b8d646e1.js",
@@ -143,27 +143,27 @@ self.__precacheManifest = [
   },
   {
     "url": "guide/getting-started.html",
-    "revision": "8d5975765498304943d5dcedcc99f57b"
+    "revision": "9efe098655557b0af32c34067110cac9"
   },
   {
     "url": "guide/index.html",
-    "revision": "121e6a54fadd9407cc7ae1491c2e39d2"
+    "revision": "76b870a71a130c6ea31c6a2b2da111c5"
   },
   {
     "url": "icons/android-chrome-192x192.png",
-    "revision": "1b3774ae1ab398168e53acf04918ba2b"
+    "revision": "5eb7a959b9f74eb9245bf5cc4f12837b"
   },
   {
     "url": "icons/android-chrome-372x372.png",
-    "revision": "21562bdc93695d9faa7afe632f76887e"
+    "revision": "1eabbf408e53ac33cd33716f3ba27dbe"
   },
   {
     "url": "icons/apple-touch-icon-152x152.png",
-    "revision": "74157da049f492542c66656cfabeaa9c"
+    "revision": "4c8ddaae8be6e9e8b42a2ba8a81f5fd0"
   },
   {
     "url": "index.html",
-    "revision": "3c90262705efda56a04dd8ccc1d02726"
+    "revision": "83e59fa1541665c7655a77aae541a7ce"
   },
   {
     "url": "line-numbers-desktop.png",
@@ -175,7 +175,7 @@ self.__precacheManifest = [
   },
   {
     "url": "logo.png",
-    "revision": "6bb96de2f5578c88193737ce1d180e64"
+    "revision": "8b680ae9fb98c4eeba5e3cacf9c7e479"
   },
   {
     "url": "plugin.png",
@@ -183,15 +183,15 @@ self.__precacheManifest = [
   },
   {
     "url": "zh/guide/getting-started.html",
-    "revision": "b87c02a20f908b087c3d55d1410c5362"
+    "revision": "0c7b0d64dfeaa0ce76c2aad2be533249"
   },
   {
     "url": "zh/guide/index.html",
-    "revision": "2a09e7ec9e7892eaa49dcc24b2cb0ff9"
+    "revision": "69bc89ed7e135542fbe1ff96e9f1d986"
   },
   {
     "url": "zh/index.html",
-    "revision": "9367536307225fd61f0d23ea91effb1b"
+    "revision": "90d1316c1da3a94313329b12dae42702"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
