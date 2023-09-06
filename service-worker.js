@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "be2dffbee867aab3226264acae073c86"
+    "revision": "f9cbfc874737a77e88bbba958f747a30"
   },
   {
     "url": "architecture.png",
@@ -42,8 +42,32 @@ self.__precacheManifest = [
     "revision": "9ff88ba82143d51c3aa7f869c7466bcd"
   },
   {
+    "url": "assets/browsing-events.png",
+    "revision": "c894133b6e621c453ca0ccbb8d156199"
+  },
+  {
     "url": "assets/css/0.styles.5beffba2.css",
     "revision": "524519764546c4879917431d693c8c41"
+  },
+  {
+    "url": "assets/github-auth-cancel.png",
+    "revision": "86b08aa9457fea942ef5da3f32e39054"
+  },
+  {
+    "url": "assets/github-auth.png",
+    "revision": "95c86d01c689ccd7b236fd6e15dd3c73"
+  },
+  {
+    "url": "assets/github-connect.png",
+    "revision": "c0e97f6c8392e8c98e914b9f1ff7b56a"
+  },
+  {
+    "url": "assets/github-err.png",
+    "revision": "2523ae5265aad7aac65babd32cbc3ed6"
+  },
+  {
+    "url": "assets/github-reauth.png",
+    "revision": "23a8fbe28e313ae275b7c8edc2bfc199"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -74,8 +98,8 @@ self.__precacheManifest = [
     "revision": "ed83c8a9ae3e4de721dd93daed6f0374"
   },
   {
-    "url": "assets/js/16.c37cddb6.js",
-    "revision": "5a4d64b5a8bf5c60b11070311454ea5f"
+    "url": "assets/js/16.655b7ed4.js",
+    "revision": "6aef4a719442361a7a9b9c9204473f04"
   },
   {
     "url": "assets/js/17.2cc09bc8.js",
@@ -90,8 +114,8 @@ self.__precacheManifest = [
     "revision": "3d1fc3cf34687e5341b48605b7d90d53"
   },
   {
-    "url": "assets/js/20.9b669a94.js",
-    "revision": "988a4da36a4817b7b2ef8bc61ddd720d"
+    "url": "assets/js/20.7b04c249.js",
+    "revision": "d0f821de776d6ea05440c4f7d5b82c6c"
   },
   {
     "url": "assets/js/21.f0356158.js",
@@ -126,8 +150,8 @@ self.__precacheManifest = [
     "revision": "ab51457e58a5ab9a01ab160d3b7a783f"
   },
   {
-    "url": "assets/js/app.af04f438.js",
-    "revision": "8c8925e8d2588575b112e7b442769855"
+    "url": "assets/js/app.3ee20633.js",
+    "revision": "8169556de23d333b3b1adc557de15b71"
   },
   {
     "url": "assets/js/vendors~flowchart.b8d646e1.js",
@@ -142,12 +166,24 @@ self.__precacheManifest = [
     "revision": "930b9bbbdf9d39f55033eae2575a7641"
   },
   {
+    "url": "assets/management.png",
+    "revision": "bc3a58636594aff34ef4180b105b3e5c"
+  },
+  {
+    "url": "assets/participation.png",
+    "revision": "4eb859ab1a055ab3609192ebf7637447"
+  },
+  {
+    "url": "assets/registration.png",
+    "revision": "aa6e55124e333e6f7648187596bfbf34"
+  },
+  {
     "url": "guide/getting-started.html",
-    "revision": "9efe098655557b0af32c34067110cac9"
+    "revision": "e1b148a02d7838229c28db807dd41627"
   },
   {
     "url": "guide/index.html",
-    "revision": "76b870a71a130c6ea31c6a2b2da111c5"
+    "revision": "3cee72e56601a9ddb352450eea8b63fb"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -163,7 +199,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "83e59fa1541665c7655a77aae541a7ce"
+    "revision": "38b6658ece3e0e9ccf0c39224bfdb985"
   },
   {
     "url": "line-numbers-desktop.png",
@@ -183,15 +219,15 @@ self.__precacheManifest = [
   },
   {
     "url": "zh/guide/getting-started.html",
-    "revision": "0c7b0d64dfeaa0ce76c2aad2be533249"
+    "revision": "2e483208915a4a3df0187fafe9878a5a"
   },
   {
     "url": "zh/guide/index.html",
-    "revision": "69bc89ed7e135542fbe1ff96e9f1d986"
+    "revision": "278b5ea7f774690f88b8df96058378bb"
   },
   {
     "url": "zh/index.html",
-    "revision": "90d1316c1da3a94313329b12dae42702"
+    "revision": "50ebb5220b17dc7793568811fe926227"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
