@@ -2,7 +2,7 @@ import { NavItem } from 'vuepress/config'
 
 export const NavItems4EN: NavItem[] = [
   {
-    text: 'Guide',
+    text: 'BeWater Guide',
     link: '/guide/'
   },
   // {

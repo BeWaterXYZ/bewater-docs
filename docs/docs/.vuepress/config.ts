@@ -33,7 +33,7 @@ export default defineConfig(ctx => ({
     '/zh/': {
       lang: 'zh-CN',
       title: 'BeWater 文档',
-      description: 'Web3创新平台，Web3世界里创新者的超级女声。'
+      description: 'Web3 创新平台'
     }
   },
   themeConfig: {
