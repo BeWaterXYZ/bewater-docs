@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "adb00e487826f72d2271fe2075e443c4"
+    "revision": "26964da33776ba63dac3fa08a8d5843d"
   },
   {
     "url": "architecture.png",
@@ -98,8 +98,8 @@ self.__precacheManifest = [
     "revision": "ed83c8a9ae3e4de721dd93daed6f0374"
   },
   {
-    "url": "assets/js/16.655b7ed4.js",
-    "revision": "6aef4a719442361a7a9b9c9204473f04"
+    "url": "assets/js/16.e58e0105.js",
+    "revision": "29db066fbe084df9e2c3db151af58b84"
   },
   {
     "url": "assets/js/17.2cc09bc8.js",
@@ -114,8 +114,8 @@ self.__precacheManifest = [
     "revision": "3d1fc3cf34687e5341b48605b7d90d53"
   },
   {
-    "url": "assets/js/20.7b04c249.js",
-    "revision": "d0f821de776d6ea05440c4f7d5b82c6c"
+    "url": "assets/js/20.f5cf63ee.js",
+    "revision": "1d906a00e85635d1dc41b4e3b95af88f"
   },
   {
     "url": "assets/js/21.f0356158.js",
@@ -150,8 +150,8 @@ self.__precacheManifest = [
     "revision": "ab51457e58a5ab9a01ab160d3b7a783f"
   },
   {
-    "url": "assets/js/app.ff0c577b.js",
-    "revision": "dfc525fcfc89a632003f95517b6bc173"
+    "url": "assets/js/app.fee4348f.js",
+    "revision": "198d083775786786a04e68bd852f1f01"
   },
   {
     "url": "assets/js/vendors~flowchart.b8d646e1.js",
@@ -179,11 +179,11 @@ self.__precacheManifest = [
   },
   {
     "url": "guide/getting-started.html",
-    "revision": "e353e67c6b8eb5607a6d1b2ef9872b30"
+    "revision": "96acdd70267d5ee62a66ff60fa2a19c1"
   },
   {
     "url": "guide/index.html",
-    "revision": "897e9fc15771efb2ecc96c10877ddb68"
+    "revision": "ba8b767c6cf6d1af569375245b2eab86"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -199,7 +199,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "994b9c46ace770469cb8e0ca2e7d5e62"
+    "revision": "fe1bdb543a476d1a5cc3356009ab07c4"
   },
   {
     "url": "line-numbers-desktop.png",
@@ -219,15 +219,15 @@ self.__precacheManifest = [
   },
   {
     "url": "zh/guide/getting-started.html",
-    "revision": "e8ead5a3cec647014937d0aa30acba34"
+    "revision": "f435d6313e7460007d4b995255c0b194"
   },
   {
     "url": "zh/guide/index.html",
-    "revision": "dab201ef22d19340db97e28b46340554"
+    "revision": "590138b644cfa4cabfca604c95d0055c"
   },
   {
     "url": "zh/index.html",
-    "revision": "48b9f18fdf5885444193f72c734b3e1f"
+    "revision": "1a9c0ed7f67711bffb1f1fd83a7afcb8"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
