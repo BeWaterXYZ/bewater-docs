@@ -66,10 +66,4 @@ If you encounter a similar situation, we recommend clicking on "Disconnect" on t
 
 ![BeWater](/assets/github-reauth.png)
 
-3. I'm a team member, and I can't find the submission portal for competition materials?
-
-
-Regular team members do not have the authority to submit or modify project materials. Only the team leader has the permission to do so.
-
-
 If you have any other questions or need support, please feel free to contact <support@bewater.xyz>

@@ -65,9 +65,4 @@
 
 ![BeWater](/assets/github-reauth.png)
 
-3、我是队员，怎么没看到提交比赛材料的入口？
-
-普通队员没有权限提交或修改 Project 材料，只有 team leader 才有权限。
-
-
 如有任何其他疑问或需要支持，请随时联系 <support@bewater.xyz>
