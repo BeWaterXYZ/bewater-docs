@@ -3,7 +3,6 @@
 
 # Production
 docs/.vuepress/dist
-package-lock.json
 
 # Misc
 .DS_Store
