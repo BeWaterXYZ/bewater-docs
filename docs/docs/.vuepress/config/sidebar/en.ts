@@ -7,5 +7,5 @@ import {
 } from './shared'
 
 export const Sidebar4EN: SidebarConfig4Multiple = {
-  '/guide/': getGuideSidebar('BeWater Guide', 'Advanced'),
+  '/guide/': getGuideSidebar('Guides', 'Advanced'),
 }

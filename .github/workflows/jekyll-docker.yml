@@ -21,6 +21,7 @@ jobs:
       run: |
         cd docs
         npm install
+        cp -f fix/enhanceApp.js node_modules/vuepress-plugin-smooth-scroll/lib/enhanceApp.js
         npm run docs:build
         cd ..
 

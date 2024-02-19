@@ -8,6 +8,8 @@ node-v16
 
 ### 启动步骤
 
+0. 进入工程根目录
+
 1. cd docs
 
 2. npm install --registry=https://registry.npmmirror.com
@@ -17,4 +19,5 @@ node-v16
 ### 编译部署
 
 1. 只需将修改提交到main分支。
+
 2. GitHub能够自动编译部署，可以在这个页面查看部署进度。[https://github.com/BeWaterXYZ/bewater-docs/actions](https://github.com/BeWaterXYZ/bewater-docs/actions)
