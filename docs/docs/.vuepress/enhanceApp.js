@@ -6,6 +6,9 @@ export default ({ Vue, isServer, router }) => {
   }
   if (router) {
     router.onReady(() => {
+      if (typeof document === 'undefined') {
+        return
+      }
       const { hash } = document.location
       setTimeout(() => {
         if (hash && hash.length > 1) {
