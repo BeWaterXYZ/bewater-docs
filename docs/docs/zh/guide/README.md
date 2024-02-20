@@ -39,7 +39,7 @@
 
 1、怎么连接到 GitHub / 为什么连接不上 GitHub？
 
-在您的 PROJECTS 页面，点击如下的 Connect 按钮
+在您的 PROJECTS 页面，点击如下的 Connect 按钮：
 
 ![BeWater](/assets/github-connect.png)
 
