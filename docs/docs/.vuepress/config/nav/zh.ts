@@ -5,41 +5,41 @@ export const NavItems4ZH: NavItem[] = [
     text: '使用指南',
     link: '/zh/guide/'
   },
-  // {
-  //   text: 'AIxCrypto 报告',
-  //   ariaLabel: 'AIxCrypto 报告',
-  //   // link: '/zh/aixcrypto/'
-  //   items: [
-  //     {
-  //       text: '1. 导言',
-  //       link: '/zh/aixcrypto/introduction.html'
-  //     },
-  //     {
-  //       text: '2. 人工智能 x 密码的核心框架',
-  //       link: '/zh/aixcrypto/chapter1.html'
-  //     },
-  //     {
-  //       text: '3. 大创意',
-  //       link: '/zh/aixcrypto/chapter2.html'
-  //     },
-  //     {
-  //       text: '4. 建设者的机遇',
-  //       link: '/zh/aixcrypto/chapter3.html'
-  //     },
-  //     {
-  //       text: 'A.	附录：机器学习如何工作？',
-  //       link: '/zh/aixcrypto/chapter4.html'
-  //     },
-  //     {
-  //       text: 'B.	附录：ML 面临的挑战',
-  //       link: '/zh/aixcrypto/chapter5.html'
-  //     },
-  //     {
-  //       text: 'C.	附录：展望',
-  //       link: '/zh/aixcrypto/chapter6.html'
-  //     },
-  //   ],
-  // },
+  {
+    text: 'AIxCrypto 报告',
+    ariaLabel: 'AIxCrypto 报告',
+    // link: '/zh/aixcrypto/'
+    items: [
+      {
+        text: '1. 导言',
+        link: '/zh/aixcrypto/introduction.html'
+      },
+      {
+        text: '2. AI x Crypto 的核心框架',
+        link: '/zh/aixcrypto/chapter1.html'
+      },
+      {
+        text: '3. 大创意',
+        link: '/zh/aixcrypto/chapter2.html'
+      },
+      {
+        text: '4. Builder 的机遇',
+        link: '/zh/aixcrypto/chapter3.html'
+      },
+      {
+        text: 'A.	附录：机器学习如何工作？',
+        link: '/zh/aixcrypto/chapter4.html'
+      },
+      {
+        text: 'B.	附录：ML 面临的挑战',
+        link: '/zh/aixcrypto/chapter5.html'
+      },
+      {
+        text: 'C.	附录：展望',
+        link: '/zh/aixcrypto/chapter6.html'
+      },
+    ],
+  },
   // {
   //   text: '插件',
   //   link: '/zh/plugin/'
