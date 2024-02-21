@@ -109,6 +109,7 @@ export function getAIxCryptoSidebar(a): SidebarConfigArray {
         'chapter4',
         'chapter5',
         'chapter6',
+        'chapter7',
       ]
     },
     // {
