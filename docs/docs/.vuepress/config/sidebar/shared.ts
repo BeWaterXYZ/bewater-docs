@@ -96,57 +96,63 @@ export function getGuideSidebar (groupA, groupB): SidebarConfigArray {
   return sidebar
 }
 
-export function getAIxCryptoSidebar(a, b, c, d, e, f, g): SidebarConfigArray {
+export function getAIxCryptoSidebar(a): SidebarConfigArray {
   const sidebar: SidebarConfigArray = [
     {
       title: a,
-      collapsable: true,
+      collapsable: false,
       children: [
-        'introduction',
-      ]
-    },
-    {
-      title: b,
-      collapsable: true,
-      children: [
+        '',
         'chapter1',
-      ]
-    },
-    {
-      title: c,
-      collapsable: true,
-      children: [
         'chapter2',
-      ]
-    },
-    {
-      title: d,
-      collapsable: true,
-      children: [
         'chapter3',
-      ]
-    },
-    {
-      title: e,
-      collapsable: true,
-      children: [
         'chapter4',
-      ]
-    },
-    {
-      title: f,
-      collapsable: true,
-      children: [
         'chapter5',
-      ]
-    },
-    {
-      title: g,
-      collapsable: true,
-      children: [
         'chapter6',
       ]
     },
+    // {
+    //   title: b,
+    //   collapsable: true,
+    //   children: [
+    //     'chapter1',
+    //   ]
+    // },
+    // {
+    //   title: c,
+    //   collapsable: true,
+    //   children: [
+    //     'chapter2',
+    //   ]
+    // },
+    // {
+    //   title: d,
+    //   collapsable: true,
+    //   children: [
+    //     'chapter3',
+    //   ]
+    // },
+    // {
+    //   title: e,
+    //   collapsable: true,
+    //   children: [
+    //     'chapter4',
+    //   ]
+    // },
+    // {
+    //   title: f,
+    //   collapsable: true,
+    //   children: [
+    //     'chapter5',
+    //   ]
+    // },
+    // {
+    //   title: g,
+    //   collapsable: true,
+    //   children: [
+    //     'chapter6',
+    //   ]
+    // },
   ]
   return sidebar
 }
