@@ -72,10 +72,16 @@ export default defineConfig(ctx => ({
       }
     ],
     ['@vuepress/medium-zoom', true],
+    // [
+    //   '@vuepress/google-analytics',
+    //   {
+    //     ga: 'UA-128189152-1'
+    //   }
+    // ],
     [
       '@vuepress/google-analytics',
       {
-        ga: 'UA-128189152-1'
+        ga: 'G-Y289NM5K6X',
       }
     ],
     [
@@ -95,12 +101,6 @@ export default defineConfig(ctx => ({
       }
     ],
     ['vuepress-plugin-flowchart'],
-    [
-      '@vuepress/google-analytics',
-      {
-        'ga': 'G-Y289NM5K6X',
-      }
-    ],
   ],
   extraWatchFiles: ['.vuepress/config/**'],
   evergreen: false
