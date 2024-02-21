@@ -94,7 +94,13 @@ export default defineConfig(ctx => ({
         after: '</UpgradePath>'
       }
     ],
-    ['vuepress-plugin-flowchart']
+    ['vuepress-plugin-flowchart'],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'G-Y289NM5K6X',
+      }
+    ],
   ],
   extraWatchFiles: ['.vuepress/config/**'],
   evergreen: false
