@@ -21,6 +21,7 @@ jobs:
       run: |
         cd docs
         npm install
+        cp -f fix/google/enhanceAppFile.js node_modules/@vuepress/plugin-google-analytics/enhanceAppFile.js
         npm run docs:build
         cd ..
 
