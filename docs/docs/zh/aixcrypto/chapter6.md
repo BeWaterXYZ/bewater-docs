@@ -17,4 +17,4 @@
 
 **描述：** 为人工智能和加密货币的交叉领域铺平了道路，它使开发人员能够在以太坊上创建智能合约，这些合约可以通过零知识（ZK）证明对区块链数据的整个历史进行访问和计算。这一点至关重要，因为它为动态DeFi应用、定制化的预言机和链上忠诚度计划开辟了新的可能性，允许协议根据历史链上活动进行调整，而无需依赖外部预言机或修改已部署的合约。此外，该协议还旨在将 ZK 技术用于人工智能应用，例如通过确保数据完整性和无信任计算，Axiom可以验证在线内容并检测深度伪造。这使得Axiom成为以太坊上未来安全、数据丰富应用的关键参与者，利用人工智能和加密货币的优势，创建一个更加透明、高效和用户驱动的生态系统。
 
-更多 Landscape 内容，我们为您整理出完整的 PDF 文档，**[点击请下载](https://bewater-static.s3.ap-southeast-1.amazonaws.com/docs/AIxCrypto+Report+Landscape.pdf)**
+更多 Landscape 内容，我们为您整理出完整的 PDF 文档，**[点击可下载](https://bewater-static.s3.ap-southeast-1.amazonaws.com/docs/AIxCrypto+Report+Landscape.pdf)**
