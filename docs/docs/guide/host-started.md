@@ -4,7 +4,7 @@ Welcome to BeWater, a platform specifically designed for event organizers and pa
 
 ## Registration and Login
 
-- Visit the official BeWater website at [https://build.bewater.xyz/](https://build.bewater.xyz/)
+- Visit the official BeWater website at [https://build.bewater.xyz/](https://build.bewater.xyz/en/)
 - Register using a valid email address and password
 - Log in to your account and access BeWater's event creation interface at [https://build.bewater.xyz/host](https://build.bewater.xyz/host)
 

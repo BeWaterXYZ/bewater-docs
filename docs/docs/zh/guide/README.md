@@ -4,7 +4,7 @@
 
 ## 第一步：注册和完善信息
 
-1. 打开 BeWater 官方网站 [https://build.bewater.xyz](https://build.bewater.xyz)
+1. 打开 BeWater 官方网站 [https://build.bewater.xyz](https://build.bewater.xyz/zh/)
 2. 点击 “Sign up “按钮，使用邮箱或者连接钱包并授权签名登录。
 3. 登录后，您将进入个人 Profile 页面，请完成相关信息的填写，包括用户名、角色、技能等。
 
@@ -12,7 +12,7 @@
 
 ## 第二步：浏览赛事
 
-1. 在 BeWater 赛事页面 [https://build.bewater.xyz/campaigns](https://build.bewater.xyz/campaigns) ，您将看到当前的赛事列表。
+1. 在 BeWater 赛事页面 [https://build.bewater.xyz/campaigns](https://build.bewater.xyz/zh/campaigns) ，您将看到当前的赛事列表。
 2. 浏览赛事列表，选择您感兴趣的赛事。
 3. 点击赛事名称或详情，以查看赛事的详细信息、规则和要求。
 

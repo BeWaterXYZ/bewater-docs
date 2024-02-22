@@ -4,7 +4,7 @@ Welcome to BeWater, a event management platform designed specifically for event 
 
 ## Step 1: Registration and Profile Completion
 
-1. Open the BeWater official website at [https://build.bewater.xyz](https://build.bewater.xyz).
+1. Open the BeWater official website at [https://build.bewater.xyz](https://build.bewater.xyz/en/).
 2. Click the "Sign up" button and log in using your email or connect your wallet and authorize the login with a signature.
 3. Once logged in, you will be taken to your personal Profile page. Please complete the necessary information, including your username, role, skills, and more.
 
@@ -12,7 +12,7 @@ Welcome to BeWater, a event management platform designed specifically for event 
 
 ## Step 2: Browsing Events
 
-1. On the BeWater events page at [https://build.bewater.xyz/campaigns](https://build.bewater.xyz/campaigns), you will find the current list of events.
+1. On the BeWater events page at [https://build.bewater.xyz/campaigns](https://build.bewater.xyz/en/campaigns), you will find the current list of events.
 2. Browse through the list of events and select the one that interests you.
 3. Click on the event name or details to view the event's detailed information, rules, and requirements.
 

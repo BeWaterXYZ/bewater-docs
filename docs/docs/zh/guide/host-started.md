@@ -4,7 +4,7 @@
 
 ## 注册和登录
 
-- 访问 BeWater 官方网站 [https://build.bewater.xyz/](https://build.bewater.xyz/)
+- 访问 BeWater 官方网站 [https://build.bewater.xyz/](https://build.bewater.xyz/zh/)
 - 使用有效的电子邮件地址和密码进行注册
 - 登录您的账户，进入 BeWater 的赛事创建界面 [https://build.bewater.xyz/host](https://build.bewater.xyz/host)
 
