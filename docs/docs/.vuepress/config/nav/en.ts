@@ -5,6 +5,21 @@ export const NavItems4EN: NavItem[] = [
     text: 'Guides',
     link: '/guide/'
   },
+  {
+    text: 'Website',
+    items: [
+      {
+        text: 'User',
+        link: 'https://build.bewater.xyz/en/',
+        target: '_blank',
+      },
+      {
+        text: 'Host',
+        link: 'https://build.bewater.xyz/host',
+        target: '_blank',
+      }
+    ]
+  }
   // {
   //   text: 'Config Reference',
   //   link: '/config/'

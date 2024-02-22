@@ -40,6 +40,21 @@ export const NavItems4ZH: NavItem[] = [
     //   },
     // ],
   },
+  {
+    text: '官网',
+    items: [
+      {
+        text: '参赛者',
+        link: 'https://build.bewater.xyz/zh/',
+        target: '_blank',
+      },
+      {
+        text: '举办方',
+        link: 'https://build.bewater.xyz/host',
+        target: '_blank',
+      }
+    ]
+  }
   // {
   //   text: '插件',
   //   link: '/zh/plugin/'

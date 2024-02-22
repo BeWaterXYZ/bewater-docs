@@ -70,7 +70,7 @@ export function getGuideSidebar (groupA, groupB): SidebarConfigArray {
       collapsable: false,
       children: [
         '',
-        // 'getting-started',
+        'host-started',
         // 'directory-structure',
         // 'basic-config',
         // 'typescript-as-config',
