@@ -41,6 +41,10 @@ export const NavItems4ZH: NavItem[] = [
     // ],
   },
   {
+    text: '边缘计算现状',
+    link: '/zh/the-stage-of-edge-ai/'
+  },
+  {
     text: '官网',
     items: [
       {

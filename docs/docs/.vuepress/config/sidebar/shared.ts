@@ -157,3 +157,23 @@ export function getAIxCryptoSidebar(a): SidebarConfigArray {
   ]
   return sidebar
 }
+
+export function getTheStageOfEdgeAISidebar(a): SidebarConfigArray {
+    const sidebar: SidebarConfigArray = [
+      {
+        title: a,
+        collapsable: false,
+        children: [
+          '',
+          'chapter1',
+          'chapter2',
+          'chapter3',
+          'chapter4',
+          'chapter5',
+          'chapter6',
+          'chapter7',
+        ]
+      },
+    ]
+  return sidebar
+}
