@@ -41,7 +41,7 @@ export const NavItems4ZH: NavItem[] = [
     // ],
   },
   {
-    text: '边缘计算现状',
+    text: '边缘 AI 研究',
     link: '/zh/the-stage-of-edge-ai/'
   },
   {
